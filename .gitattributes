@@ -1,0 +1,18 @@
+# Setting Line Endings
+# Default options for other files
+* text eol=auto
+
+# Text Files should follow LF
+*.jl text eol=lf
+*.sh text eol=lf
+*.slurm text eol=lf
+*.toml text eol=lf
+
+# Binary Files that shouldn't be touched
+*.jld2 binary
+*.nc binary
+*.png binary
+*.jpg binary
+*.pdf binary
+*.mp4 binary
+*.gif binary
